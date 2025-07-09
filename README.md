@@ -1,39 +1,37 @@
-# SkyCast - Weather Forecast App 🌤️
+# 🌤️ SkyCast - Weather Forecast App
 
-![SkyCast Banner](https://via.placeholder.com/1200x400/5B86E5/FFFFFF?text=SkyCast+Weather+App)
+![App Banner](https://via.placeholder.com/1200x400/5B86E5/FFFFFF?text=SkyCast+Weather+App)
 
-A beautiful, feature-rich weather application built with Flutter that provides accurate forecasts with stunning visuals.
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-3.19.0-blue?logo=flutter" alt="Flutter Version">
+  <img src="https://img.shields.io/badge/Dart-3.3.0-blue?logo=dart" alt="Dart Version">
+  <img src="https://img.shields.io/badge/Null%20Safety-Enabled-success" alt="Null Safety">
+  <img src="https://img.shields.io/github/last-commit/pamiracar/SkyCast_Weather_App" alt="Last Commit">
+</p>
 
-## ✨ Key Features
+## ✨ Features
+- Real-time weather data for any city
+- Beautiful Material 3 design 
+- Detailed weather metrics (temperature, humidity, wind speed, etc.)
+- Responsive UI with smooth animations
 
-- **Real-time Weather Data**: Current conditions and 7-day forecasts
-- **Beautiful UI/UX**: 
-  - Dynamic background based on weather conditions
-  - Smooth animations and transitions
-  - Dark/Light mode support
-- **Location Services**:
-  - GPS-based current location
-  - Multi-location support
-  - Search by city name
-- **Detailed Forecasts**:
-  - Hourly temperature/precipitation charts
-  - Wind speed/direction
-  - Humidity and UV index
-- **Additional Features**:
-  - Weather alerts and notifications
-  - Air quality index
-  - Sunrise/sunset times
+## 🛠 Tech Stack
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.3.0 # For API calls
+```
 
-
-### Prerequisites
-
-- Flutter SDK (>= 3.19.0)
-- Dart (>= 3.3.0)
-- Android Studio/VSCode with Flutter plugins
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/pamiracar/SkyCast_Weather_App.git
-cd SkyCast_Weather_App
+##Project Structure
+```text
+lib/
+├── main.dart          # App entry point
+├── models/            # Data models
+│   └── weather_model.dart
+├── pages/             # UI screens
+│   ├── home_page.dart
+│   └── weather_page.dart
+└── themes/            # Theme configuration
+    └── theme.dart
+```
